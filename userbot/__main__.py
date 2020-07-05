@@ -26,11 +26,11 @@ except PhoneNumberInvalidError:
 for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
-LOGS.info("You are running One4uBot [v3.3]")
+LOGS.info("You are running TESLA [v6.3]")
 
 LOGS.info(
     "Congratulations, your userbot is now running !! Test it by typing .alive / .on in any chat."
-    "If you need assistance, head to https://t.me/userbotindo")
+    "If you need assistance, head to https://t.me/PROJECT_TESLA")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
