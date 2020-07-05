@@ -19,10 +19,10 @@ async def help(event):
         else:
             await event.edit("Please specify a valid module name.")
     else:
-        string = "`Welcome to Help centre` \n \n"
+        string = "`Welcome To Help Centre` \n \n"
         for i in CMD_HELP:
             string +="`" + str(i)
-            string += "`\n"
+            string += "`\t\t\t||\t\t\t "
         await event.edit(f"{string}"
                         "\n\nSpecify which module do you want help for !!\
                         \n**Usage:** `.help` <module name>")
