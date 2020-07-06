@@ -133,13 +133,12 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("👋Hi,\n"
                      f"{DEFAULTUSER}\n"
-                     f"**PROJECT TESLA**\n"
                      f"👉 `Telethon : v{version.__version__} `\n"
                      f"👉 `Python : v{python_version()} `\n"
 	                 "===================== \n"
                      f"`My Master : `{DEFAULTUSER} \n"
 		             "===================== \n"
-                     f"__Running on Branch :- {UPSTREAM_REPO_BRANCH}__ \n")
+                     f"__Running on Branch ➡️ {UPSTREAM_REPO_BRANCH}__ \n")
 
 
 @register(outgoing=True, pattern="^.aliveu")
