@@ -20,7 +20,7 @@ async def oldy(event):
     string = '  '.join(args).lower()
     for normiecharacter in string:
         if normiecharacter in normiefont:
-            oldeng = oldyfont[normiefont.index(normiecharacter)]
+            oldycharacter = oldyfont[normiefont.index(normiecharacter)]
             string = string.replace(normiecharacter, oldycharacter)
     await event.edit(string)
 CMD_HELP.update({
