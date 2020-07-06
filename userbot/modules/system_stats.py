@@ -133,7 +133,7 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`My USERBOT Details`\n"
                      f"**PROJECT** \n"
-                     f"**TESLA** \n
+                     f"**TESLA** \n"
                      f"> `Telethon : v{version.__version__} `\n"
                      f"> `Python : v{python_version()} `\n"
 	                 "===================== \n"
