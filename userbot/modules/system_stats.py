@@ -134,10 +134,10 @@ async def amireallyalive(alive):
     await alive.edit("`My USERBOT Details`\n"
                      f"**PROJECT** \n"
                      f"**TESLA** \n"
-                     f"> `Telethon : v{version.__version__} `\n"
-                     f"> `Python : v{python_version()} `\n"
+                     f"👉`Telethon : v{version.__version__} `\n"
+                     f"👉`Python : v{python_version()} `\n"
 	                 "===================== \n"
-                     f"`User : `{DEFAULTUSER} \n"
+                     f"`Master : `{DEFAULTUSER} \n"
 		             "===================== \n"
                      f"__Running on {UPSTREAM_REPO_BRANCH}__ \n")
 
