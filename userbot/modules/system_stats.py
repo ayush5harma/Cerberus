@@ -135,10 +135,10 @@ async def amireallyalive(alive):
                      f"👋 Hi, {DEFAULTUSER} \n\n"
                      f"👉 `Telethon : v{version.__version__} `\n"
                      f"👉 `Python : v{python_version()} `\n"
-	                 "===================== \n"
+	                     "====================== \n"
                      f"`My Master 👨: `{DEFAULTUSER} \n"
-		             "===================== \n"
-                     f"__Running on Branch ➡️ {UPSTREAM_REPO_BRANCH}__ \n")
+		             "====================== \n"
+                     f"__🌿Running on Branch ==> {UPSTREAM_REPO_BRANCH}__ \n")
 
 
 @register(outgoing=True, pattern="^.aliveu")
