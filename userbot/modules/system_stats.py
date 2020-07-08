@@ -139,7 +139,7 @@ async def amireallyalive(alive):
                      f"`Python : v{python_version()} `\n"
                       "==================== \n"
                      f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
-                     f"Tip:- Type .help to know about Modules Information" \n)
+                     f"Tip:- Type .help to know about Modules Information \n")
 
 
 @register(outgoing=True, pattern="^.aliveu")
