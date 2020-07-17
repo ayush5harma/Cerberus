@@ -8,7 +8,7 @@ NOW For using UserBot It is important to know Which Vars are used for What.
 
 **API_HASH**: you will get this value from where you get API_KEY .
 
-**STRING_SESSION**: After getting above upper values you have to go to [session generator](https://GenerateStringSession.uraniumcore.repl.run) it will ask to select option as t/p select t and sign in with phone number in international format as +918999993456.
+**STRING_SESSION**: After getting above upper values you have to go to [session generator](https://session.uraniumcore.repl.run) it will ask to select option as t/p select t and sign in with phone number in international format as +918999993456.
 
 **HEROKU_MEMEZ**: This Value Should be settled to "True" for deploying on heroku.
 
