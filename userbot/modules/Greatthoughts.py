@@ -63,7 +63,7 @@ async def _(event):
     	    	    	    	    	
     if x==8:
     	
-    	await event.edit("`What if i fall?  /n oh, but my darling /n what if you fly? \n [e.h.]`")
+    	await event.edit("`What if i fall?  \n oh, but my darling \n what if you fly? \n [e.h.]`")
     	    	    	    	    	    	
     if x==9:
     	
