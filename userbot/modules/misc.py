@@ -155,43 +155,11 @@ CMD_HELP.update({
 })
 
 CMD_HELP.update({
-    'sleep':
-    '.sleep <seconds>\
-\nUsage: Userbots get tired too. Let yours snooze for a few seconds.'
-})
-
-CMD_HELP.update({
-    "shutdown":
-    ".shutdown\
-\nUsage: Sometimes you need to shut down your bot. Sometimes you just hope to\
-hear Windows XP shutdown sound... but you don't."
-})
+    "powermenu":
+    ".sleep <seconds> :- Userbots get tired too. Let yours snooze for a few seconds.\n\n.shutdown :-Usage: Sometimes you need to shut down your bot. Sometimes you just hope to hear Windows XP shutdown sound... but you don't.\n\n.restart:-Usage: Restarts the bot !!"})
 
 CMD_HELP.update(
-    {'support': ".support\
-\nUsage: If you need help, use this command."})
-
-CMD_HELP.update({
-    'community':
-    ".community\
-\nUsage: Join the awesome Paperplane userbot community !!"
-})
-
-CMD_HELP.update({
-    'repo':
-    '.repo\
-\nUsage: If you are curious what makes the userbot work, this is what you need.'
-})
-
-CMD_HELP.update({
-    "readme":
-    ".readme\
-\nUsage: Provide links to setup the userbot and it's modules."
-})
-
-CMD_HELP.update(
-    {"creator": ".creator\
-\nUsage: Know who created this awesome userbot !!"})
+    {"TESLA": ".support :-Usage: If you need help, use this command.\n\n.community :-Join the awesome TESLA userbot community !!\n\n.repo:- If you are curious what makes the userbot work, this is what you need.\n\n.readme:- Provide links to setup the userbot and it's modules.\n\n.creator:- Know who created this awesome userbot !!\n"})
 
 CMD_HELP.update({
     "repeat":
@@ -199,8 +167,6 @@ CMD_HELP.update({
 \nUsage: Repeats the text for a number of times. Don't confuse this with spam tho."
 })
 
-CMD_HELP.update({"restart": ".restart\
-\nUsage: Restarts the bot !!"})
 
 CMD_HELP.update({
     "raw":
