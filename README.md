@@ -49,5 +49,7 @@ and many more people who aren't mentioned here, but may be found in [Contributor
 ## License
 
 This userbot licensed on [Raphielscape Public License](https://github.com/ElytrA8/TESLA/blob/TESLA/LICENSE) - Version 1.d, February 2020
+
 Every graphics of this bot is copyrighted by ElytrA8 
+
 ElytrA8 is also a copyrighted term
