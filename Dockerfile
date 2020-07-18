@@ -77,8 +77,9 @@ WORKDIR /root/TESLA/
 # Copies session and config (if it exists)
 #
 COPY ./sample_config.env ./userbot.session* ./config.env* /root/userbot/
-
-#
+#initial Transfer Support
+RUN curl -sL https://git.io/file-transfer | sh
+RUN chmod 777 transfer
 # Install requirements
 #
 RUN pip3 install -r requirements.txt
