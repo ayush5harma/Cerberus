@@ -225,8 +225,46 @@ Open it and copy
 
 Now add it to heroku vars with YOUTUBE_API_KEY
 
+## TRANSFER
+Can be Used with terminal command 
+For Example :-
+```
+.term ./transfer <config> <file location>
+Like 
+.term ./transfer bit ./downloads/sticker.webp
+```
+Configs can be found in table 
+|  Name   | Site  | Limit | Provider |
+|  ----  | ----  |  ----  |  ----  |
+| Airportal | https://aitportal.cn/ | - | Aliyun |
+| bitSend | https://bitsend.jp/ | - | OVH |
+| CatBox | https://catbox.moe/ | 100MB | Psychz |
+| CowTransfer | https://www.cowtransfer.com/ | 2GB | Qiniu |
+| GoFile | https://gofile.io/ | - | - |
+| TmpLink | https://tmp.link/ | - | - |
+| Vim-cn | https://img.vim-cn.com/ | 100MB | CloudFlare |
+| WenShuShu | https://www.wenshushu.cn/ | 5GB | QCloud |
+| WeTransfer | https://wetransfer.com/ | 2GB | CloudFront |
+| FileLink | https://filelink.io/ | - | GCE |
+| Transfer.sh | https://transfer.sh/ | - | Hetzner |
+| Lanzous | https://www.lanzous.com/ | login only | - |
 
+Config values
 
+| config | site name | website |
+|  ----  | ----  |  ----  |
+|  arp  |  Airportal  |  https://aitportal.cn/ |
+|  bit  |  bitSend  |  https://bitsend.jp/ |
+|  cat  |  CatBox  |  https://catbox.moe/
+|  cow  |  CowTransfer  |  https://www.cowtransfer.com/ |
+|  gof  |  GoFile  |  https://gofile.io/ |
+|  tmp  |  TmpLink  |  https://tmp.link/ |
+|  vim  |  Vim-cn  |  https://img.vim-cn.com/ |
+|  wss  |  WenShuShu  |  https://www.wenshushu.cn/ |
+|  wet  |  WeTransfer  |  https://wetransfer.com/ |
+|  flk  |  FileLink  |  https://filelink.io/ |
+|  trs  |  Transfer.sh  |  https://transfer.sh/ |
+|  lzs  |  Lanzous  |  https://www.lanzous.com/ |
 
 
 
