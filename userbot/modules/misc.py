@@ -148,11 +148,6 @@ async def raw(event):
             caption="`Here's the decoded message data !!`")
 
 
-CMD_HELP.update({
-    'random':
-    '.random <item1> <item2> ... <itemN>\
-\nUsage: Get a random item from the list of items.'
-})
 
 CMD_HELP.update({
     "powermenu":
@@ -162,14 +157,5 @@ CMD_HELP.update(
     {"TESLA": ".support :-Usage: If you need help, use this command.\n\n.community :-Join the awesome TESLA userbot community !!\n\n.repo:- If you are curious what makes the userbot work, this is what you need.\n\n.readme:- Provide links to setup the userbot and it's modules.\n\n.creator:- Know who created this awesome userbot !!\n"})
 
 CMD_HELP.update({
-    "repeat":
-    ".repeat <no.> <text>\
-\nUsage: Repeats the text for a number of times. Don't confuse this with spam tho."
-})
-
-
-CMD_HELP.update({
-    "raw":
-    ".raw\
-\nUsage: Get detailed JSON-like formatted data about replied message."
-})
+    "tools":
+    ".random <item1> <item2> ... <itemN>:-Get a random item from the list of items.\n\n.repeat <no.> <text> :-Usage: Repeats the text for a number of times. Don't confuse this with spam though.\n\n.raw:- Get detailed JSON-like formatted data about replied message.\n"})
