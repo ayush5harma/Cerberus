@@ -91,7 +91,7 @@ async def creator(ereee):
     """ See who create this userbot. """
     await ereee.edit(
         "Creator of this userbot:"
-        "\n• ⚡ [ElytrA8](https://github.com/ElytrA8) 💘")
+        "\n• ⚡ [ElytrA8](https://github.com/ElytrA8) ⚡")
 
 
 @register(outgoing=True, pattern="^.readme$")
