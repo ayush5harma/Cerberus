@@ -153,8 +153,7 @@ CMD_HELP.update({
     "powermenu":
     ".sleep <seconds> :- Userbots get tired too. Let yours snooze for a few seconds.\n\n.shutdown :-Usage: Sometimes you need to shut down your bot. Sometimes you just hope to hear Windows XP shutdown sound... but you don't.\n\n.restart:-Usage: Restarts the bot !!"})
 
-CMD_HELP.update(
-    {"TESLA": ".support :-Usage: If you need help, use this command.\n\n.community :-Join the awesome TESLA userbot community !!\n\n.repo:- If you are curious what makes the userbot work, this is what you need.\n\n.readme:- Provide links to setup the userbot and it's modules.\n\n.creator:- Know who created this awesome userbot !!\n"})
+CMD_HELP.update({"tesla": ".support :-Usage: If you need help, use this command.\n\n.community :-Join the awesome TESLA userbot community !!\n\n.repo:- If you are curious what makes the userbot work, this is what you need.\n\n.readme:- Provide links to setup the userbot and it's modules.\n\n.creator:- Know who created this awesome userbot !!\n"})
 
 CMD_HELP.update({
     "tools":
