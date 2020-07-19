@@ -26,7 +26,7 @@ async def gen_chlog(repo, diff):
     ch_log = ''
     d_form = "%d/%m/%y"
     for c in repo.iter_commits(diff):
-        ch_log += f'`{c.summary}` \nby {c.author} \non [{c.committed_datetime.strftime(d_form)}]\n'
+        ch_log += f'{c.summary} \nby {c.author} \non [{c.committed_datetime.strftime(d_form)}]\n'
     return ch_log
 
 
