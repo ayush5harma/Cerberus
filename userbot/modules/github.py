@@ -12,7 +12,7 @@ from datetime import datetime
 from telethon import events
 from telethon.tl.types import DocumentAttributeVideo
 from userbot.events import register
-from userbot import CMD_HELP, GITHUB_ACCESS_TOKEN, GIT_REPO_NAME
+from userbot import bot, CMD_HELP, GITHUB_ACCESS_TOKEN, GIT_REPO_NAME
 
 
 GIT_TEMP_DIR = "./userbot/temp/"
