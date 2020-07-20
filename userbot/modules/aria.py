@@ -231,8 +231,8 @@ async def check_progress_for_dl(gid, event, previous):
 
 CMD_HELP.update({
     "aria2":
-    "[aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.]\n\n
-    .aurl [URL] (or) .amag [Magnet Link] (or) .ator [path to torrent file]\
+    "[aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.]\
+    \n\n.aurl [URL] (or) .amag [Magnet Link] (or) .ator [path to torrent file]\
     \nUsage: Downloads the file into your userbot server storage.\
     \n\n.apause (or) .aresume\
     \nUsage: Pauses/resumes on-going downloads.\
