@@ -35,4 +35,4 @@ async def _(event):
     stdout, stderr = await process.communicate()
     await event.edit(f"{stdout.decode()}")
 CMD_HELP.update({ "webupload":
-"`.webupload` (filename) `--anonfiles` | `transfer` | `anonymousfiles` | `megaupload` | `bayfiles` | `openload` | `files.io` | `vshare` "})  
+"`.webupload` (filename) `--anonfiles` | `transfer` | `anonymousfiles` | `megaupload` | `bayfiles` | `openload` | `file.io` | `vshare` "})  
