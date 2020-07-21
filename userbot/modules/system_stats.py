@@ -132,21 +132,22 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     output = ("\n"
-                     f"`Hi, {DEFAULTUSER} `\n"
-                     f"`This Userbot is powered By Project TESLA©`\n"
-                      "==================== \n"
-                     f"`Telethon : v{version.__version__} `\n"
-                     f"`Python : v{python_version()} `\n"
-                     f"`TESLA` : v{USERBOT_VERSION} `\n"
-                      "==================== \n"
-                     f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
-                     f"Tip:- Type .help to know about Modules Information \n")
+              f"`Hi, {DEFAULTUSER} `\n"
+              f"`This Userbot is powered By Project TESLA©`\n"
+              "==================== \n"
+              f"`Telethon : v{version.__version__} `\n"
+              f"`Python : v{python_version()} `\n"
+              f"`TESLA` : v{USERBOT_VERSION} `\n"
+              "==================== \n"
+              f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
+              f"Tip:- Type .help to know about Modules Information \n")
 if ALIVE_LOGO:
-        logo = ALIVE_LOGO
-        await bot.send_file(alive.chat_id, logo, caption=output)
-        await alive.delete()
-        else:
-        await alive.edit(output)
+    logo = ALIVE_LOGO
+    await bot.send_file(alive.chat_id, logo, caption=output)
+    await alive.delete()
+    else:
+    await alive.edit(output)
+
 
 @register(outgoing=True, pattern="^.aliveu")
 async def amireallyaliveuser(username):
@@ -169,7 +170,7 @@ async def amireallyalivereset(ureset):
     await ureset.edit("`" "Successfully reset user for alive!" "`")
 
 
-CMD_HELP.update({"utils": ".sysd :- Shows system information using neofetch. \n.botver :-Shows the userbot version. \n.pip <module(s)> :-Does a search of pip modules(s)."})   
+CMD_HELP.update({"utils": ".sysd :- Shows system information using neofetch. \n.botver :-Shows the userbot version. \n.pip <module(s)> :-Does a search of pip modules(s)."})
 
 CMD_HELP.update({
     "alive":
