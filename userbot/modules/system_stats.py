@@ -131,8 +131,7 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^.(alive|on)$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-   logo = ALIVE_LOGO
-   output = (" "
+           output = (" "
                      f"`Hi, {DEFAULTUSER} `\n"
                      f"`This Userbot is powered By Project TESLA©`\n"
                       "==================== \n"
@@ -142,8 +141,7 @@ async def amireallyalive(alive):
                       "==================== \n"
                      f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
                      f"Tip:- Type .help to know about Modules Information \n")
-                     
-       if ALIVE_LOGO:
+if ALIVE_LOGO:
         logo = ALIVE_LOGO
         await bot.send_file(alive.chat_id, logo, caption=output)
         await alive.delete()
