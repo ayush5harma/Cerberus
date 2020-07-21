@@ -18,10 +18,10 @@ from telethon.tl.functions.channels import (EditAdminRequest,
                                             EditBannedRequest,
                                             EditPhotoRequest)
 from telethon.tl.functions.messages import UpdatePinnedMessageRequest
-from telethon.tl.types import (PeerChannel, ChannelParticipantsAdmins, 
-                               ChannelParticipantAdmin, ChatAdminRights, 
-                               ChatBannedRights, MessageEntityMentionName, 
-                               MessageMediaPhoto, ChannelParticipantsBots, 
+from telethon.tl.types import (PeerChannel, ChannelParticipantsAdmins,
+                               ChannelParticipantAdmin, ChatAdminRights,
+                               ChatBannedRights, MessageEntityMentionName,
+                               MessageMediaPhoto, ChannelParticipantsBots,
                                ChannelParticipantCreator)
 
 from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
@@ -293,6 +293,7 @@ async def nothanos(unbon):
         await unbon.client(
             EditBannedRequest(unbon.chat_id, user.id, UNBAN_RIGHTS))
         await unbon.edit("```Unbanned Successfully```")
+
         await sleep(3)
         await unbon.delete()
         if BOTLOG:
