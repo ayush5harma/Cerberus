@@ -145,7 +145,7 @@ if ALIVE_LOGO:
         logo = ALIVE_LOGO
         await bot.send_file(alive.chat_id, logo, caption=output)
         await alive.delete()
-    else:
+        else:
         await alive.edit(output)
 
 @register(outgoing=True, pattern="^.aliveu")
