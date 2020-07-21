@@ -10,10 +10,8 @@ from random import randint
 from time import sleep
 from os import execl
 import sys
-import os
 import io
 import sys
-import json
 from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from userbot.events import register
 from userbot.utils import time_formatter
@@ -99,7 +97,7 @@ async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
         "\n[One4uBot's README.md file](https://github.com/ElytrA8/TESLA/blob/TESLA/README.md)")
-    
+
 
 # Copyright (c) Gegham Zakaryan | 2019
 @register(outgoing=True, pattern="^.repeat (.*)")
@@ -146,7 +144,6 @@ async def raw(event):
             allow_cache=False,
             reply_to=reply_to_id,
             caption="`Here's the decoded message data !!`")
-
 
 
 CMD_HELP.update({
