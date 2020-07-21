@@ -1,8 +1,8 @@
 FROM elytra8/alpineapple:latest
 
 RUN mkdir /TESLA && chmod 777 /TESLA
-ENV PATH="/One4uBot/bin:$PATH"
-WORKDIR /One4uBot
+ENV PATH="/TESLA/bin:$PATH"
+WORKDIR /TESLA
 
 RUN git clone https://github.com/ElytrA8/TESLA -b TESLA /TESLA
 
