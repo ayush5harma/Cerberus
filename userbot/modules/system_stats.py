@@ -131,7 +131,7 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^.(alive|on)$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-           output = ("\n"
+    output = ("\n"
                      f"`Hi, {DEFAULTUSER} `\n"
                      f"`This Userbot is powered By Project TESLA©`\n"
                       "==================== \n"
