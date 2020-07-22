@@ -79,7 +79,7 @@ async def bot_ver(event):
                              "`")
         else:
             await event.edit(
-                "Shame that you don't have git, you're running - 'v6.4' anyway!"
+                "Shame that you don't have git, you're running - 'v2.5' anyway!"
             )
 
 
@@ -131,22 +131,22 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^.(alive|on)$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    output = ("\n"
-              f"`Hi, {DEFAULTUSER} `\n"
-              f"`This Userbot is powered By Project TESLA©`\n"
-              "==================== \n"
-              f"`Telethon : v{version.__version__} `\n"
-              f"`Python : v{python_version()} `\n"
-              f"`TESLA` : v{USERBOT_VERSION} `\n"
-              "==================== \n"
-              f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
-              f"Tip:- Type .help to know about Modules Information \n")
-if ALIVE_LOGO:
-    logo = ALIVE_LOGO
-    await bot.send_file(alive.chat_id, logo, caption=output)
-    await alive.delete()
+           output = ("`My TESLA details `\n"
+                     f"`Hi, {DEFAULTUSER} `\n"
+                     f"`This Userbot is powered By Project TESLA©`\n"
+                      "==================== \n"
+                     f"`Telethon : v{version.__version__} `\n"
+                     f"`Python : v{python_version()} `\n"
+                     f"`TESLA` : v{USERBOT_VERSION} `\n"
+                      "==================== \n"
+                     f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
+                     f"Tip:- Type .help to know about Modules Information \n")
+    if ALIVE_LOGO:
+        logo = ALIVE_LOGO
+        await bot.send_file(alive.chat_id, logo, caption=output)
+        await alive.delete()
     else:
-    await alive.edit(output)
+        await alive.edit(output)
 
 
 @register(outgoing=True, pattern="^.aliveu")
@@ -170,8 +170,14 @@ async def amireallyalivereset(ureset):
     await ureset.edit("`" "Successfully reset user for alive!" "`")
 
 
-CMD_HELP.update({"utils": ".sysd :- Shows system information using neofetch. \n.botver :-Shows the userbot version. \n.pip <module(s)> :-Does a search of pip modules(s)."})
-
+CMD_HELP.update(
+    {"sysd": ".sysd\
+    \nUsage: Shows system information using neofetch."})
+CMD_HELP.update({"botver": ".botver\
+    \nUsage: Shows the userbot version."})
+CMD_HELP.update(
+    {"pip": ".pip <module(s)>\
+    \nUsage: Does a search of pip modules(s)."})
 CMD_HELP.update({
     "alive":
     ".alive | .on\
