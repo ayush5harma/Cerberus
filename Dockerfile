@@ -5,7 +5,10 @@ ENV PATH="/TESLA/bin:$PATH"
 WORKDIR /TESLA
 
 RUN git clone https://github.com/ElytrA8/TESLA -b TESLA /TESLA
-
+#
+#setup transfer
+#
+RUN curl -sL https://git.io/file-transfer | sh
 #
 # Copies session and config(if it exists)
 #
