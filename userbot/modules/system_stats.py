@@ -137,7 +137,7 @@ async def amireallyalive(alive):
               "==================== \n"
               f"`Telethon : v{version.__version__} `\n"
               f"`Python : v{python_version()} `\n"
-              f"`TESLA` : v{USERBOT_VERSION} `\n"
+              f"`TESLA : v{USERBOT_VERSION} `\n"
               "==================== \n"
               f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
               f"Tip:- Type .help to know about Modules Information \n")
