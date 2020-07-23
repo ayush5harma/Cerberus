@@ -13,7 +13,7 @@ from userbot.events import register
 import asyncio
 
 
-@register(outgoing=True, (pattern="hl ?(.*)"))
+@register(outgoing=True, pattern=r"^.hl(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
