@@ -6,11 +6,8 @@
 # By Priyam Kalra
 # Syntax (.hl <link>)
 
-from telethon import events
-from telethon.tl import functions, types
 from userbot import CMD_HELP
 from userbot.events import register
-import asyncio
 
 
 @register(outgoing=True, pattern=r"^.hl(?: |$)(.*)")
