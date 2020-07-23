@@ -6,19 +6,24 @@
 # By Priyam Kalra
 # Syntax (.hl <link>)
 
-from telethon import events
-from telethon.tl import functions, types
+
 from userbot import CMD_HELP
 from userbot.events import register
 import asyncio
 
 
-@register(outgoing=True, pattern=r"^.hl ?(.*)")
+@register(outgoing=True, pattern=r"^.hl(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    input = event.pattern_match.group(1)
-    await event.edit("[ㅤㅤㅤㅤㅤㅤㅤ](" + input + ")")
+    string = event.pattern_match.group(1)
+    strings = string.split()
+    link = strings[-1]
+    strings = strings[:-1]
+    string = " ".join(strings)
+    output = f"[{string}]({link})"
+    await event.edit(output)
+
 CMD_HELP.update({
     "hl":
     "Use :- .hl <word> <link>"})
