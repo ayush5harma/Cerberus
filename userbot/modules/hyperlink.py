@@ -12,12 +12,13 @@ from userbot import CMD_HELP
 from userbot.events import register
 import asyncio
 
+
 @register(outgoing=True, (pattern="hl ?(.*)"))
 async def _(event):
-        if event.fwd_from:
-            return
-        input = event.pattern_match.group(1)
-        await event.edit("[ㅤㅤㅤㅤㅤㅤㅤ](" + input + ")")
+    if event.fwd_from:
+        return
+    input = event.pattern_match.group(1)
+    await event.edit("[ㅤㅤㅤㅤㅤㅤㅤ](" + input + ")")
 CMD_HELP.update({
-"hl":
-	"Use :- .hl <word> <link>"})
+    "hl":
+    "Use :- .hl <word> <link>"})
