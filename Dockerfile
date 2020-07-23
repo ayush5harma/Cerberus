@@ -1,4 +1,4 @@
-FROM elytra8/alpineapple:latest
+FROM elytra8/tesla:latest
 
 RUN mkdir /TESLA && chmod 777 /TESLA
 ENV PATH="/TESLA/bin:$PATH"
