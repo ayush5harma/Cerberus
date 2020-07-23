@@ -1,4 +1,4 @@
-<div align="center">𝙿𝚁𝙾𝙹𝙴𝙲𝚃 丅乇丂乚卂 ©</div>
+<div align="center">**𝙿𝚁𝙾𝙹𝙴𝙲𝚃 丅乇丂乚卂 ©**</div>
 
 ![LOGO](https://telegra.ph/file/7a68593c92c85faa388f9.png)
 [![Build](https://github.com/ElytrA8/TESLA/workflows/FailedChecker/badge.svg?branch=TESLA)](https://github.com/ElytrA8/TESLA/actions "build")
