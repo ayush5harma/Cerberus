@@ -139,7 +139,7 @@ async def amireallyalive(alive):
               f"`TESLA : v{USERBOT_VERSION} `\n"
               "==================== \n"
               f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
-              f"Tip:- Type .help to know about Modules Information \n")
+              f"Tip:- Type `.help` to know about Modules Information \n")
     if ALIVE_LOGO:
         logo = ALIVE_LOGO
         await bot.send_file(alive.chat_id, logo, caption=output)
