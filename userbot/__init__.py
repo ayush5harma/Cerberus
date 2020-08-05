@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+- - # Copyright (C) 2019 The Raphielscape Company LLC.
 #
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
@@ -134,14 +134,14 @@ ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/89fd52256430adf802516.png"
+    "ALIVE_LOGO") or "https://telegra.ph/file/60dca4482776dcc187f9e.jpg"
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY") or "")
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER") or 1)
 
 # Version of One4uBot
-USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "7.0"
+USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "The Great Alpaca"
 
 # User Terminal alias
 USER_TERM_ALIAS = os.environ.get("USER_TERM_ALIAS") or "root@TESLA"
