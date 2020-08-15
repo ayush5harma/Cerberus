@@ -1,5 +1,8 @@
 clear
-
+echo " ____  ____  ____  __     __  " 
+echo "(_  _)(  __)/ ___)(  )   / _\ "
+echo "  )(   ) _) \___ \/ (_/\/    \"
+echo " (__) (____)(____/\____/\_/\_/"
 pkg update && pkg upgrade -y
 pkg install clang curl git libcrypt libffi libiconv libjpeg* libjpeg-turbo libwebp libxml2 libxslt make ndk-sysroot openssl postgresql python readline wget zlib -y
 
