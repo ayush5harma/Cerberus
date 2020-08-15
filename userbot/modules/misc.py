@@ -96,7 +96,7 @@ async def creator(ereee):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[One4uBot's README.md file](https://github.com/ElytrA8/TESLA/blob/TESLA/README.md)")
+        "\n[TESLA's README.md file](https://github.com/ElytrA8/TESLA/blob/TESLA/README.md)")
 
 
 # Copyright (c) Gegham Zakaryan | 2019
