@@ -5,7 +5,7 @@ The easiest way to deploy this great bot! is click on button below
 Make sure you have an account of heroku and follow all the steps required.
 
 Deploy to Heroku:
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/ayush5harma/Touka/tree/TESLA"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/ayush5harma/Cerberus/tree/TESLA"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Groups and support
 
