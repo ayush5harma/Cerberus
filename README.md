@@ -1,26 +1,3 @@
-<div align="center">𝙿𝚁𝙾𝙹𝙴𝙲𝚃 丅乇丂乚卂 ©</div>
-
-![LOGO](https://telegra.ph/file/7a68593c92c85faa388f9.png)
-[![Build](https://github.com/JamieHoSzeYui/TESLA/workflows/FailedChecker/badge.svg?branch=TESLA)](https://github.com/ElytrA8/TESLA/actions "build")
-![Spec](https://img.shields.io/badge/Made%20with-%E2%99%A5%EF%B8%8F-white)
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-
-```
-#include <std/disclaimer.h>
-/**
-    Your Telegram account may get banned.
-    I am not responsible for any improper use of this bot
-    This bot is intended for the purpose of having fun with memes,
-    as well as efficiently managing groups.
-    You ended up spamming groups, getting reported left and right,
-    and you ended up in a Finale Battle with Telegram and at the end
-    Telegram Team deleted your account?
-    And after that, then you pointed your fingers at us
-    for getting your acoount deleted?
-    I will be rolling on the floor laughing at you.
-/**
-```
 
 ## How To Host?
 
