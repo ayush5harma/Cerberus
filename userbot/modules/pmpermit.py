@@ -17,11 +17,9 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
-    "`Hey!, I am TESLA`\n"
-    "`Please wait for my master to look in`\n"
-    "`Until then, please don't spam PM..`\n"
-    "`Thank you for being patient.`\n\n"
-    "`*This PM is Powered by TESLA Ai`")
+    "`Let him have a look in`\n"
+    "`Until then, don not spam the chatbox!`\n"
+    "`*I Touka, guard this account against spamming`")
 # =================================================================
 
 
