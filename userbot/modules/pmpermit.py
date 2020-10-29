@@ -17,22 +17,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
-   
-  "                            /\_/\____,
-                  ,___/\_/\ \  ~     /
-                  \     ~  \ )   XXX
-                    XXX     /    /\_/\___,
-                       \o-o/-o-o/   ~    /
-                        ) /     \    XXX
-                       _|    / \ \_/
-                    ,-/   _  \_/   \
-                   / (   /____,__|  )
-                  (  |_ (    )  \) _|
-                 _/ _)   \   \__/   (_
-               (,-(,(,(,/      \,),),) "
-    "`Let him have a look in`\n"
-    "`Until then, don not spam the chatbox!`\n"
-    "`*I Cerberus, guard this account against spamming`")
+    "`*I Cerberus, guard this account against spamming`"
+    "`Let your message be read first`\n"
+    "`Until then, do not spam the chatbox!`\n"
+    )
 # =================================================================
 
 
